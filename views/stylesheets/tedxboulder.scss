@@ -7,7 +7,7 @@ $width: 940px;
 body {
  background: image-url('mattebg.png') repeat;
  font-size: 100%;
- font-family: 'Arial';
+ font-family: Helvetica;
 }
 
 #wrapper {
@@ -32,11 +32,18 @@ body {
 }
 
 #main {
-  #title {
+  h1 {
+    font-size: 120px;
+    color: #EE3124;
+    font-weight: bold;
     margin-bottom: 14px;
+    letter-spacing: -5.5px;
   }
   
-  #subtitle {
+ h2 {
+   font-size: 20px;
+   font-weight: bold;
+   color: #333;
     margin-bottom: 35px;
   }
   
@@ -109,13 +116,20 @@ body {
   padding-top: 42px;
   width: $width;
   margin: 0 auto;
+  color: #D9110B;
+  font-size: 80px;
+  font-family: Helvetica;
   
-  img#warholquote {
+  p {
+    font-weight: bold;
+    letter-spacing: -3.75px;
     float: left;
     margin-left: -38px;
+    line-height: 0.9em;
   }
   
-  img#author {
+  i {
+    font-size: 20px;
     margin-top: 5px;
     float: right;
   }

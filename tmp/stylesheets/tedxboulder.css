@@ -1,0 +1,228 @@
+/* line 17, ../../../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 20, ../../../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, ../../../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, ../../../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 26, ../../../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 28, ../../../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 101, ../../../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 30, ../../../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 114, ../../../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 7, ../../views/stylesheets/tedxboulder.scss */
+body {
+  background: url('../../public/images/mattebg.png') repeat;
+  font-size: 100%;
+  font-family: Helvetica;
+}
+
+/* line 13, ../../views/stylesheets/tedxboulder.scss */
+#wrapper {
+  width: 940px;
+  margin: 0 auto;
+}
+
+/* line 20, ../../views/stylesheets/tedxboulder.scss */
+#header {
+  padding-top: 35px;
+  padding-bottom: 89px;
+}
+/* line 24, ../../views/stylesheets/tedxboulder.scss */
+#header #logo {
+  float: left;
+}
+/* line 28, ../../views/stylesheets/tedxboulder.scss */
+#header #venuedate {
+  margin-top: 28px;
+  float: right;
+}
+
+/* line 35, ../../views/stylesheets/tedxboulder.scss */
+#main h1 {
+  font-size: 120px;
+  color: #EE3124;
+  font-weight: bold;
+  margin-bottom: 14px;
+  letter-spacing: -5.5px;
+}
+/* line 43, ../../views/stylesheets/tedxboulder.scss */
+#main h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 35px;
+}
+/* line 50, ../../views/stylesheets/tedxboulder.scss */
+#main p {
+  font-size: 1em;
+  line-height: 1.45em;
+  width: 445px;
+  float: left;
+}
+/* line 57, ../../views/stylesheets/tedxboulder.scss */
+#main .redemph {
+  font-size: 1.125em;
+  font-weight: bold;
+  color: #ee3124;
+}
+/* line 63, ../../views/stylesheets/tedxboulder.scss */
+#main #photo2010 {
+  float: right;
+  width: 460px;
+}
+/* line 67, ../../views/stylesheets/tedxboulder.scss */
+#main #photo2010 img {
+  margin-bottom: 10px;
+}
+
+/* line 73, ../../views/stylesheets/tedxboulder.scss */
+#buttons {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+  margin-top: 60px;
+  margin-bottom: 22px;
+}
+/* line 60, ../../../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+#buttons li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0px;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+}
+/* line 78, ../../views/stylesheets/tedxboulder.scss */
+#buttons li {
+  margin-right: 5px;
+  height: 40px;
+}
+/* line 82, ../../views/stylesheets/tedxboulder.scss */
+#buttons li a {
+  font-family: 'Arial Narrow', 'Arial';
+  float: left;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  background: #E6E7E8;
+  color: #333132;
+  font-size: .9em;
+  font-weight: bold;
+  padding-top: 14px;
+}
+/* line 94, ../../views/stylesheets/tedxboulder.scss */
+#buttons li a span {
+  padding: 0 15px;
+}
+/* line 99, ../../views/stylesheets/tedxboulder.scss */
+#buttons li a:hover {
+  color: #fff;
+  background: #333132;
+}
+
+/* line 106, ../../views/stylesheets/tedxboulder.scss */
+#footer {
+  width: 100%;
+}
+
+/* line 110, ../../views/stylesheets/tedxboulder.scss */
+#quote-container {
+  background: #ee3124;
+  height: 367px;
+}
+
+/* line 115, ../../views/stylesheets/tedxboulder.scss */
+#quote {
+  padding-top: 42px;
+  width: 940px;
+  margin: 0 auto;
+  color: #D9110B;
+  font-size: 80px;
+  font-family: Helvetica;
+}
+/* line 123, ../../views/stylesheets/tedxboulder.scss */
+#quote p {
+  font-weight: bold;
+  letter-spacing: -3.75px;
+  float: left;
+  margin-left: -38px;
+  line-height: 0.9em;
+}
+/* line 131, ../../views/stylesheets/tedxboulder.scss */
+#quote i {
+  font-size: 20px;
+  margin-top: 5px;
+  float: right;
+}
+
+/* line 138, ../../views/stylesheets/tedxboulder.scss */
+#tagline {
+  height: 120px;
+  background: #333132;
+  text-align: center;
+}
+/* line 143, ../../views/stylesheets/tedxboulder.scss */
+#tagline img {
+  margin-top: 65px;
+}
+
+/* line 149, ../../views/stylesheets/tedxboulder.scss */
+.clear {
+  clear: both;
+}
