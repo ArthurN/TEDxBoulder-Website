@@ -9,7 +9,5 @@ set :csrf_key,	  '4Dj93kBbBGGzpR9381DxdkX93MMQqt94d'
 set :sessions, 	  true
 
 disable :run, :reload
-
-use Rack::Static, :urls => ["/stylesheets"], :root => "tmp"
  
 run Sinatra::Application

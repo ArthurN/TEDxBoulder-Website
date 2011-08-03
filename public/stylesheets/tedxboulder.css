@@ -65,7 +65,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 7, ../../views/stylesheets/tedxboulder.scss */
 body {
-  background: url('../../public/images/mattebg.png') repeat;
+  background: url('../images/mattebg.png') repeat;
   font-size: 100%;
   font-family: Helvetica;
 }
