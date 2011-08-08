@@ -89,9 +89,17 @@ body {
 #header #venuedate {
   margin-top: 28px;
   float: right;
+  text-align: right;
+  font-size: 0.70em;
+  font-weight: bold;
+}
+/* line 36, ../../views/stylesheets/tedxboulder.scss */
+#header #date {
+  margin-bottom: 5px;
+  color: #ee3124;
 }
 
-/* line 35, ../../views/stylesheets/tedxboulder.scss */
+/* line 47, ../../views/stylesheets/tedxboulder.scss */
 #main h1 {
   font-size: 120px;
   color: #EE3124;
@@ -99,45 +107,50 @@ body {
   margin-bottom: 14px;
   letter-spacing: -5.5px;
 }
-/* line 43, ../../views/stylesheets/tedxboulder.scss */
+/* line 55, ../../views/stylesheets/tedxboulder.scss */
 #main h2 {
   font-size: 20px;
   font-weight: bold;
   color: #333;
   margin-bottom: 35px;
 }
-/* line 50, ../../views/stylesheets/tedxboulder.scss */
+/* line 62, ../../views/stylesheets/tedxboulder.scss */
 #main p {
   font-size: 1em;
   line-height: 1.45em;
   width: 445px;
   float: left;
 }
-/* line 57, ../../views/stylesheets/tedxboulder.scss */
+/* line 69, ../../views/stylesheets/tedxboulder.scss */
 #main .redemph {
   font-size: 1.125em;
   font-weight: bold;
   color: #ee3124;
 }
-/* line 63, ../../views/stylesheets/tedxboulder.scss */
+/* line 75, ../../views/stylesheets/tedxboulder.scss */
 #main #photo2010 {
   float: right;
   width: 460px;
 }
-/* line 67, ../../views/stylesheets/tedxboulder.scss */
+/* line 79, ../../views/stylesheets/tedxboulder.scss */
 #main #photo2010 img {
   margin-bottom: 10px;
 }
+/* line 83, ../../views/stylesheets/tedxboulder.scss */
+#main #photo2010 span {
+  color: #A6A6A6;
+  font-size: 0.6em;
+}
 
-/* line 73, ../../views/stylesheets/tedxboulder.scss */
+/* line 90, ../../views/stylesheets/tedxboulder.scss */
 #buttons {
   margin: 0;
   padding: 0;
   border: 0;
   overflow: hidden;
   *zoom: 1;
-  margin-top: 60px;
-  margin-bottom: 22px;
+  margin-top: 30px;
+  margin-bottom: 15px;
 }
 /* line 60, ../../../../../../../.rvm/gems/ruby-1.9.2-p180/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
 #buttons li {
@@ -148,12 +161,12 @@ body {
   display: inline;
   float: left;
 }
-/* line 78, ../../views/stylesheets/tedxboulder.scss */
+/* line 95, ../../views/stylesheets/tedxboulder.scss */
 #buttons li {
   margin-right: 5px;
   height: 40px;
 }
-/* line 82, ../../views/stylesheets/tedxboulder.scss */
+/* line 99, ../../views/stylesheets/tedxboulder.scss */
 #buttons li a {
   font-family: 'Arial Narrow', 'Arial';
   float: left;
@@ -166,28 +179,35 @@ body {
   font-weight: bold;
   padding-top: 14px;
 }
-/* line 94, ../../views/stylesheets/tedxboulder.scss */
+/* line 111, ../../views/stylesheets/tedxboulder.scss */
 #buttons li a span {
   padding: 0 15px;
 }
-/* line 99, ../../views/stylesheets/tedxboulder.scss */
+/* line 116, ../../views/stylesheets/tedxboulder.scss */
 #buttons li a:hover {
   color: #fff;
   background: #333132;
 }
 
-/* line 106, ../../views/stylesheets/tedxboulder.scss */
+/* line 123, ../../views/stylesheets/tedxboulder.scss */
+#note {
+  font-size: .85em;
+  color: #A6A6A6;
+  margin-bottom: 15px;
+}
+
+/* line 129, ../../views/stylesheets/tedxboulder.scss */
 #footer {
   width: 100%;
 }
 
-/* line 110, ../../views/stylesheets/tedxboulder.scss */
+/* line 133, ../../views/stylesheets/tedxboulder.scss */
 #quote-container {
   background: #ee3124;
   height: 367px;
 }
 
-/* line 115, ../../views/stylesheets/tedxboulder.scss */
+/* line 138, ../../views/stylesheets/tedxboulder.scss */
 #quote {
   padding-top: 42px;
   width: 940px;
@@ -196,7 +216,7 @@ body {
   font-size: 80px;
   font-family: Helvetica;
 }
-/* line 123, ../../views/stylesheets/tedxboulder.scss */
+/* line 146, ../../views/stylesheets/tedxboulder.scss */
 #quote p {
   font-weight: bold;
   letter-spacing: -3.75px;
@@ -204,25 +224,25 @@ body {
   margin-left: -38px;
   line-height: 0.9em;
 }
-/* line 131, ../../views/stylesheets/tedxboulder.scss */
+/* line 154, ../../views/stylesheets/tedxboulder.scss */
 #quote i {
   font-size: 20px;
   margin-top: 5px;
   float: right;
 }
 
-/* line 138, ../../views/stylesheets/tedxboulder.scss */
+/* line 161, ../../views/stylesheets/tedxboulder.scss */
 #tagline {
-  height: 120px;
+  height: 55px;
   background: #333132;
   text-align: center;
-}
-/* line 143, ../../views/stylesheets/tedxboulder.scss */
-#tagline img {
-  margin-top: 65px;
+  color: #fff;
+  padding-top: 65px;
+  font-size: 0.75em;
+  font-weight: bold;
 }
 
-/* line 149, ../../views/stylesheets/tedxboulder.scss */
+/* line 173, ../../views/stylesheets/tedxboulder.scss */
 .clear {
   clear: both;
 }
