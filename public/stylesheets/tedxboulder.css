@@ -192,22 +192,40 @@ body {
 /* line 123, ../../views/stylesheets/tedxboulder.scss */
 #note {
   font-size: .85em;
-  color: #A6A6A6;
+  color: #666;
   margin-bottom: 15px;
 }
+/* line 128, ../../views/stylesheets/tedxboulder.scss */
+#note ul {
+  margin-top: 5px;
+  list-style-type: disc;
+  margin-left: 15px;
+}
+/* line 132, ../../views/stylesheets/tedxboulder.scss */
+#note ul li {
+  line-height: 1.25em;
+}
+/* line 136, ../../views/stylesheets/tedxboulder.scss */
+#note ul li.fade {
+  margin-top: 5px;
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0px;
+  color: #A6A6A6;
+}
 
-/* line 129, ../../views/stylesheets/tedxboulder.scss */
+/* line 144, ../../views/stylesheets/tedxboulder.scss */
 #footer {
   width: 100%;
 }
 
-/* line 133, ../../views/stylesheets/tedxboulder.scss */
+/* line 148, ../../views/stylesheets/tedxboulder.scss */
 #quote-container {
   background: #ee3124;
   height: 367px;
 }
 
-/* line 138, ../../views/stylesheets/tedxboulder.scss */
+/* line 153, ../../views/stylesheets/tedxboulder.scss */
 #quote {
   padding-top: 42px;
   width: 940px;
@@ -216,7 +234,7 @@ body {
   font-size: 80px;
   font-family: Helvetica;
 }
-/* line 146, ../../views/stylesheets/tedxboulder.scss */
+/* line 161, ../../views/stylesheets/tedxboulder.scss */
 #quote p {
   font-weight: bold;
   letter-spacing: -3.75px;
@@ -224,14 +242,14 @@ body {
   margin-left: -38px;
   line-height: 0.9em;
 }
-/* line 154, ../../views/stylesheets/tedxboulder.scss */
+/* line 169, ../../views/stylesheets/tedxboulder.scss */
 #quote i {
   font-size: 20px;
   margin-top: 5px;
   float: right;
 }
 
-/* line 161, ../../views/stylesheets/tedxboulder.scss */
+/* line 176, ../../views/stylesheets/tedxboulder.scss */
 #tagline {
   height: 55px;
   background: #333132;
@@ -242,7 +260,7 @@ body {
   font-weight: bold;
 }
 
-/* line 173, ../../views/stylesheets/tedxboulder.scss */
+/* line 188, ../../views/stylesheets/tedxboulder.scss */
 .clear {
   clear: both;
 }

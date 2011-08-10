@@ -122,8 +122,23 @@ body {
 
 #note {
   font-size: .85em;
-  color: #A6A6A6;
+  color: #666;
   margin-bottom: 15px;
+  
+  ul {
+    margin-top: 5px;
+    list-style-type: disc;
+    margin-left: 15px;
+    li {
+      line-height: 1.25em;
+    }
+    
+    li.fade {
+      margin-top: 5px;
+      @include no-bullet;
+      color: #A6A6A6;
+    }
+  }
 }
 
 #footer {
